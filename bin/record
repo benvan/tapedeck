@@ -1,0 +1,7 @@
+#!/bin/bash
+
+recording=$1
+baud=57600
+input=/dev/tty.usbmodem1411
+
+node recorder.js record $baud $input $recording

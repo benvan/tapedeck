@@ -1,0 +1,6 @@
+#!/bin/bash
+
+recording=$1
+output=$2
+
+node recorder.js play $recording ignored | ./bin/ftee $output > /dev/null
