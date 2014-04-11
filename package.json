@@ -1,0 +1,10 @@
+{
+  "name": "serial-recorder",
+  "description": "enables recording / playback of data from serial port",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "serialport": "1.1.0",
+    "exit": "^0.1.2"
+  }
+}
